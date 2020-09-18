@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../imagens/lol-icon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot Games - Champions</title>
+</head>
+<body>
+
+<!--MENU DE NAVEGAÇÃO-->
+    <nav>
+        <img src="../imagens/lol-icon.png" alt="logo" id="logo">
+            <h1>Champions</h1>
+                <tr>
+                    <a href="../index.html">Home</a>
+                    <a href="../Itens/itens.html">Itens</a>
+                    <a href="../Info/Info.html">Guia Rápido</a>
+                </tr>
+    </nav>
+
+    
+<!--IMAGEM DE FUNDO-->
+    <div>
+        <img src="https://kraayjay.neocities.org/Img_2.jpg" alt="bgc_img" id="bgc_img">
+    </div>
+
+
+<!--SELECT CHAMPIONS-->
+    <div>
+        <select id="champ" onchange="submit(this.value)">
+                <option>Select...</option>
+        </select>
+    </div> 
+
+
+<!--TITULO PAGINA-->
+    <header>
+        <div class="txt_atencao">
+            <h1 class="tamanho">Seleção de Campeão</h1>
+            
+        </div>
+        <div id="sub-txt">
+            <p>Selecione o campeão desejado logo abaixo!</p>
+        </div>
+    </header>
+
+
+<!--INFO--> 
+    <div id="table">
+        <table>
+            <tr>
+                <td id="status"></td>
+
+                <td id="sobre"></td>
+
+                <td id="skin"></td>
+
+                <td id="skills"></td>
+
+                <td id="passive"></td>
+
+                <td id="q"></td>
+
+                <td id="w"></td>
+
+                <td id="e"></td>
+
+                <td id="r"></td>
+
+                <td id="info"></td>
+
+            </tr>
+        </table>
+    </div>
+
+
+<!--RODPÉ-->>
+    <footer>
+        <img src="../imagens/cookie.svg" alt="cookie">
+        <p>
+            This site does not use cookies
+        </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.title{
+    color: #daa520;
+    font-size: 30px;
+    cursor: pointer;
+}
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 10vh;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo{
+    width: 100px;
+}
+#img_bgc{
+    width: 100%;
+
+}
+
+main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30%;
+    font-size: 80px;
+    color: #fff;
+    cursor: pointer;
+}
+main h1:hover{
+    color: #daa520;
+    font-size: 85px;
+    transition: all 0.1s ease-in-out;
+}
+
+main h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #daa520;
+    
+    
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30%; 
+    cursor: pointer;
+}
+
+#info div{
+    background-color: #daa520;
+    padding: 100px; 
+    opacity: 50%; 
+    text-align: center; 
+    border-radius: 5px ;
+    
+}
+#info div:hover{
+    opacity: 100%;
+    transition: all 0.3s linear;
+}
+#info1{
+    color: rgb(0, 0, 0);
+}
+#info2 img{
+    width: 150px;
+    border-radius: 100px 100px 100px 100px;
+}
+#info2{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 5vh;
+    margin-top: 10%;
+}
+
+footer img{
+    width: 20px;
+}

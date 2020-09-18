@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: #295232;
+}
+
+
+/*NAV*/
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 10vh;
+    width: 100%;
+   
+}
+
+h1{
+    font-size: 30px;
+    cursor: pointer;
+    color: #daa520;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo{
+    width: 100px;
+}
+
+
+/*IMAGEM DE FUNDO*/
+#bgc_img{
+    width: 100%;
+}
+
+
+/*SELECT CHAMP*/
+#champ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    margin-top: 2%;
+    margin-left: 42%;
+    border-radius: 10px;
+    width: 15vw;
+    height: 2vw;
+}
+div select option{
+    background-color: rgb(255, 255, 255);
+    color: #daa520;
+    border-radius: 10px;
+}
+
+
+/*TITULOS*/
+.txt_atencao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35%;
+    }
+    .tamanho{
+        font-size: 70px;
+        color: #fff;
+    }
+    .tamanho:hover{
+        font-size: 75px;
+        transition: all 0.1s ease-in-out;
+        color: #65c47a;
+    }
+    
+    #sub-txt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #daa520;
+    }    
+
+
+/*STATUS JS*/
+#status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 25%;
+}
+#info_champ{
+    position: absolute;
+    margin-top: 80%;
+    padding: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #505050;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 10px 1px #000000;
+}
+#info_champ:hover{
+    width: 205px;
+    box-shadow: 5px 5px 10px 1px #ffffff;
+}
+#level{
+    margin-left:3%;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+/*NUMEROS HABILIDADES*/
+span{
+    color:#fff;
+}
+
+
+/*ARROW INPUT*/
+input{
+    font-size: 20px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    width: 80px;
+    height: 100px;
+    margin: 17px;
+    padding: 5px;
+    transform: rotate(90deg);
+    filter: sepia(100%) hue-rotate(90deg);
+    cursor: pointer;
+  }
+
+
+/*SKINS*/
+#skin{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 43%;
+    margin-top: 34%;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+/*SKILLS*/
+#skills{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 67%;
+    margin-top: 30%; 
+    cursor: pointer;
+     
+}
+#skill_img{
+    border-radius: 10px;
+    margin: 5%;
+    box-shadow: 5px 5px 10px 1px #000000;
+    cursor: pointer;
+    width: 70px;
+}
+#skill_img:hover{
+    width: 60px;
+    box-shadow: 2px 2px 5px 1px #ffffff;
+}
+
+/*INFO SPELLS RESULT*/
+.resultSpells{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    border-radius: 10px; 
+    width: 50px;
+    box-shadow: 5px 5px 10px 2px #000;
+}
+.resultSpells:hover{
+    width: 55px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+} 
+#info{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    margin-left: 61%;
+    margin-top: 34%;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 5px #000;
+}
+#info:hover{
+    box-shadow: 2px 2px 15px 2px rgb(255, 255, 255);
+}
+
+
+/*SLIDE IMG*/
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+
+
+
+/*RODAPÉ*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    width: 100%;
+    margin-top: 60%;
+}
+
+footer img{
+    width: 20px;
+}
+
+
